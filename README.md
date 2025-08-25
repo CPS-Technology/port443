@@ -5,7 +5,7 @@ Script to use iptables in order to monitor port 443 traffic and generates daily 
 
 ```
 sudo mkdir -p /etc/port443
-sudo cd /etc/port443
+cd /etc/port443
 git clone https://github.com/CPS-Technology/port443.git
 ```
 
