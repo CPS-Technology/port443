@@ -4,9 +4,8 @@ Script to use iptables in order to monitor port 443 traffic and generates daily 
 1. Clone the repository into the server you want to log the port 443.
 
 ```
-sudo mkdir -p /etc/port443
+sudo git clone https://github.com/CPS-Technology/port443.git /etc/port443
 cd /etc/port443
-git clone https://github.com/CPS-Technology/port443.git
 ```
 
 
