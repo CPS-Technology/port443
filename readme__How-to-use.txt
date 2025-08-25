@@ -35,6 +35,8 @@ $ crontab -e
 7 0 * * * /etc/port443/port443_02_extractlog.sh
 10 0 * * * /etc/port443/port443_03_movelog.sh
 
+# If using VIM to edit crontab, press :x! to close and save
+
 
 # List crontab:
 crontab -l
@@ -96,4 +98,5 @@ sudo sh /etc/port443/port443_03_movelog.sh
     - Runs every day, at 00:10 (only AFTER extract log script)
       - Be sure addresses and credentials are correct
       - Test if it works before add into crontab, or else the files won't be copied to the consolidation area   
+
 
